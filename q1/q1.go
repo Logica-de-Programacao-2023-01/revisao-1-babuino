@@ -23,7 +23,7 @@ func CalculateDiscount(currentPurchase float64, purchaseHistory []float64) (floa
   } else if soma <= 500 {
      discount = currentPurchase * 0.02
   }
-  fmt.Println(discount)
+
 
 
   return 0, nil
